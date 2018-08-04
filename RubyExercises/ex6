@@ -1,0 +1,22 @@
+# Strings and text
+types_of_people = 10 # assign value to types of people
+x = "There are #{types_of_people} types of people." # x string describing total amount of people.
+binary = 'binary'
+do_not = "don't"
+y = "Those who know #{binary} and those who #{do_not}." # y string describing difference in people who know binary as opposed to those who don't.
+
+puts x
+puts y
+
+puts "I said: #{x}" # output x string
+puts "I also said: '#{y}'." # out y string
+
+hilarious = false # equate hilarious to a true/false value. In this case, equating to false.
+joke_evaluation = "Isn't that joke so funny?! #{hilarious}" # string outputting whether or not joke is funny.
+
+puts joke_evaluation
+
+w = 'This is the left side of...'
+e = 'a string with a right side.'
+
+puts w + e
